@@ -1,0 +1,24 @@
+{
+  "name": "GLSource",
+  "authors": "Henry",
+  "homepage": "http://henry.beer",
+  "license": "Private",
+  "summary": "GLSource",
+  "source": {
+    "path": "."
+  },
+  "version": "1.0",
+  "frameworks": [
+    "OpenGL",
+    "GLUT"
+  ],
+  "source_files": "include/**/*.{h,m}",
+  "public_header_files": "include/**/*.h",
+  "vendored_libraries": "libGLTools.a",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

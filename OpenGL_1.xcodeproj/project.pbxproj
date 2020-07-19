@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E142B024B1D53A00A167C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02E142AF24B1D53A00A167C1 /* main.cpp */; };
+		373DF1DA4F6B91FC4A07AED7 /* Pods_OpenGL_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5EE33707FFCDBCB8B21736 /* Pods_OpenGL_1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02301C7424C49523005CF4A9 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		02301C7524C49523005CF4A9 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
+		02301C7624C49523005CF4A9 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		02301C7724C49523005CF4A9 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		02E142A024B1D53A00A167C1 /* OpenGL_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E142AE24B1D53A00A167C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E142AF24B1D53A00A167C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		02E142B124B1D53A00A167C1 /* OpenGL_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL_1.entitlements; sourceTree = "<group>"; };
+		0E3EEF259143376FAF4C9057 /* Pods-OpenGL_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL_1.debug.xcconfig"; path = "Target Support Files/Pods-OpenGL_1/Pods-OpenGL_1.debug.xcconfig"; sourceTree = "<group>"; };
+		4A5EE33707FFCDBCB8B21736 /* Pods_OpenGL_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGL_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C631FD54F21D1AA6288D2712 /* Pods-OpenGL_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL_1.release.xcconfig"; path = "Target Support Files/Pods-OpenGL_1/Pods-OpenGL_1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E1429D24B1D53A00A167C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373DF1DA4F6B91FC4A07AED7 /* Pods_OpenGL_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02301C7924C49534005CF4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02301C7524C49523005CF4A9 /* brick.tga */,
+				02301C7424C49523005CF4A9 /* ceiling.tga */,
+				02301C7724C49523005CF4A9 /* floor.tga */,
+				02301C7624C49523005CF4A9 /* stone.tga */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02E1429724B1D53A00A167C1 = {
+			isa = PBXGroup;
+			children = (
+				02E142A224B1D53A00A167C1 /* OpenGL_1 */,
+				02E142A124B1D53A00A167C1 /* Products */,
+				B59D685229F80C7C4A63DDC7 /* Pods */,
+				4CABC26F87A3E03BE3EEBD55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02E142A124B1D53A00A167C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E142A024B1D53A00A167C1 /* OpenGL_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E142A224B1D53A00A167C1 /* OpenGL_1 */ = {
+			isa = PBXGroup;
+			children = (
+				02301C7924C49534005CF4A9 /* Supporting Files */,
+				02E142AE24B1D53A00A167C1 /* Info.plist */,
+				02E142AF24B1D53A00A167C1 /* main.cpp */,
+				02E142B124B1D53A00A167C1 /* OpenGL_1.entitlements */,
+			);
+			path = OpenGL_1;
+			sourceTree = "<group>";
+		};
+		4CABC26F87A3E03BE3EEBD55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EE33707FFCDBCB8B21736 /* Pods_OpenGL_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B59D685229F80C7C4A63DDC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E3EEF259143376FAF4C9057 /* Pods-OpenGL_1.debug.xcconfig */,
+				C631FD54F21D1AA6288D2712 /* Pods-OpenGL_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E1429F24B1D53A00A167C1 /* OpenGL_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E142B424B1D53A00A167C1 /* Build configuration list for PBXNativeTarget "OpenGL_1" */;
+			buildPhases = (
+				8E4EF2AD6535C3E80171B463 /* [CP] Check Pods Manifest.lock */,
+				02E1429C24B1D53A00A167C1 /* Sources */,
+				02E1429D24B1D53A00A167C1 /* Frameworks */,
+				02E1429E24B1D53A00A167C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGL_1;
+			productName = OpenGL_1;
+			productReference = 02E142A024B1D53A00A167C1 /* OpenGL_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E1429824B1D53A00A167C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Henry;
+				TargetAttributes = {
+					02E1429F24B1D53A00A167C1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 02E1429B24B1D53A00A167C1 /* Build configuration list for PBXProject "OpenGL_1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E1429724B1D53A00A167C1;
+			productRefGroup = 02E142A124B1D53A00A167C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E1429F24B1D53A00A167C1 /* OpenGL_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E1429E24B1D53A00A167C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E4EF2AD6535C3E80171B463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGL_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E1429C24B1D53A00A167C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E142B024B1D53A00A167C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02E142B224B1D53A00A167C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02E142B324B1D53A00A167C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02E142B524B1D53A00A167C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3EEF259143376FAF4C9057 /* Pods-OpenGL_1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL_1/OpenGL_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGL_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a.OpenGL-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02E142B624B1D53A00A167C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C631FD54F21D1AA6288D2712 /* Pods-OpenGL_1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL_1/OpenGL_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGL_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a.OpenGL-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E1429B24B1D53A00A167C1 /* Build configuration list for PBXProject "OpenGL_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E142B224B1D53A00A167C1 /* Debug */,
+				02E142B324B1D53A00A167C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E142B424B1D53A00A167C1 /* Build configuration list for PBXNativeTarget "OpenGL_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E142B524B1D53A00A167C1 /* Debug */,
+				02E142B624B1D53A00A167C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E1429824B1D53A00A167C1 /* Project object */;
+}
