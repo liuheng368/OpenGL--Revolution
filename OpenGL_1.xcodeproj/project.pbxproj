@@ -12,6 +12,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0213FE1224D1CED000633183 /* Marble.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marble.tga; sourceTree = "<group>"; };
+		0213FE1324D1CED000633183 /* Marslike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marslike.tga; sourceTree = "<group>"; };
+		0213FE1424D1CED000633183 /* MoonLike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoonLike.tga; sourceTree = "<group>"; };
 		02301C7424C49523005CF4A9 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
 		02301C7524C49523005CF4A9 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
 		02301C7624C49523005CF4A9 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
@@ -69,10 +72,13 @@
 		02E142A224B1D53A00A167C1 /* OpenGL_1 */ = {
 			isa = PBXGroup;
 			children = (
-				02301C7924C49534005CF4A9 /* Supporting Files */,
 				02E142AE24B1D53A00A167C1 /* Info.plist */,
 				02E142AF24B1D53A00A167C1 /* main.cpp */,
+				0213FE1224D1CED000633183 /* Marble.tga */,
+				0213FE1324D1CED000633183 /* Marslike.tga */,
+				0213FE1424D1CED000633183 /* MoonLike.tga */,
 				02E142B124B1D53A00A167C1 /* OpenGL_1.entitlements */,
+				02301C7924C49534005CF4A9 /* Supporting Files */,
 			);
 			path = OpenGL_1;
 			sourceTree = "<group>";
